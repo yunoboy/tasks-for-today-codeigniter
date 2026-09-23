@@ -1,0 +1,13 @@
+CI_ENVIRONMENT = development
+
+app.baseURL = 'http://localhost:8082/'
+app.appTimezone = 'Asia/Manila'
+
+database.default.hostname = localhost
+database.default.database = tasks_for_today
+database.default.username = root
+database.default.password =
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+database.default.encrypt = false
